@@ -29,11 +29,11 @@ react + dva todolist 实例
 ```
 
 # 使用插件
--[接口请求地址jsonplaceholder](https://jsonplaceholder.typicode.com/)
--[dva](https://dvajs.com/guide/)
--[切换 history 为 browserHistory](https://dvajs.com/knowledgemap/#%E5%88%87%E6%8D%A2-history-%E4%B8%BA-browserhistory)
--[基于 action 进行页面跳转](https://dvajs.com/knowledgemap/#%E5%9F%BA%E4%BA%8E-action-%E8%BF%9B%E8%A1%8C%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC)
--[错误处理](https://dvajs.com/knowledgemap/#%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86)
+- [接口请求地址jsonplaceholder](https://jsonplaceholder.typicode.com/)
+- [dva](https://dvajs.com/guide/)
+- [切换 history 为 browserHistory](https://dvajs.com/knowledgemap/#%E5%88%87%E6%8D%A2-history-%E4%B8%BA-browserhistory)
+- [基于 action 进行页面跳转](https://dvajs.com/knowledgemap/#%E5%9F%BA%E4%BA%8E-action-%E8%BF%9B%E8%A1%8C%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC)
+- [错误处理](https://dvajs.com/knowledgemap/#%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86)
 
--[classnames](https://github.com/JedWatson/classnames)
--[dva-loading](https://github.com/dvajs/dva/tree/master/packages/dva-loading)
+- [classnames](https://github.com/JedWatson/classnames)
+- [dva-loading](https://github.com/dvajs/dva/tree/master/packages/dva-loading)
