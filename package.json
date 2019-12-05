@@ -1,8 +1,11 @@
 {
   "private": true,
+  "homepage":"https://xuwenliu.github.io/dva-todolist",
   "scripts": {
     "start": "roadhog server",
-    "build": "roadhog build"
+    "build": "roadhog build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^3.26.0",
@@ -20,6 +23,7 @@
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^2.1.1",
     "husky": "^0.12.0",
     "redbox-react": "^1.4.3",
     "roadhog": "^2.5.0-beta.4"
