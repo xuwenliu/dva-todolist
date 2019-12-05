@@ -31,9 +31,9 @@ react + dva todolist
 
 # 项目启动和部署github
 
-1.npm run start  //本地
-2.npm run build  //打包
-3.npm run deploy //部署
+- 1.npm run start  //本地
+- 2.npm run build  //打包
+- 3.npm run deploy //部署
 
 # 使用插件
 - [接口请求地址jsonplaceholder](https://jsonplaceholder.typicode.com/)
