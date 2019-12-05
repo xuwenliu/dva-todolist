@@ -1,5 +1,5 @@
 # dva-todolist
-react + dva todolist 实例  https://xuwenliu.github.io/dva-todolist/#/
+react + dva todolist 案例  https://xuwenliu.github.io/dva-todolist
 
 # 安装 dva-cli
 ```js
