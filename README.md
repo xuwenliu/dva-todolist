@@ -22,7 +22,7 @@ react + dva todolist 实例
     2. 编辑 .webpackrc，使 babel-plugin-import 插件生效。
     {
       "extraBabelPlugins": [
-        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }] // true 开启less
       ]
     }
     3.dva-cli 基于 roadhog 实现 build 和 dev，更多 .webpackrc 的配置详见：https://github.com/sorrycc/roadhog#%E9%85%8D%E7%BD%AE
