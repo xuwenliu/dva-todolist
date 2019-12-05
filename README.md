@@ -1,5 +1,6 @@
 # dva-todolist
-react + dva todolist 案例  https://xuwenliu.github.io/dva-todolist
+react + dva todolist 
+项目参考：https://github.com/nickiwen/dva
 
 # 安装 dva-cli
 ```js
@@ -27,6 +28,12 @@ react + dva todolist 案例  https://xuwenliu.github.io/dva-todolist
     }
     3.dva-cli 基于 roadhog 实现 build 和 dev，更多 .webpackrc 的配置详见：https://github.com/sorrycc/roadhog#%E9%85%8D%E7%BD%AE
 ```
+
+# 项目启动和部署github
+
+1.npm run start  //本地
+2.npm run build  //打包
+3.npm run deploy //部署
 
 # 使用插件
 - [接口请求地址jsonplaceholder](https://jsonplaceholder.typicode.com/)
