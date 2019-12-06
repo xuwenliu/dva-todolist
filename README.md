@@ -31,9 +31,21 @@ react + dva todolist
 
 # 项目启动和部署github
 
-- 1.npm run start  //本地
-- 2.npm run build  //打包
-- 3.npm run deploy //部署
+- 1.安装gh-pages 
+ ```
+  npm install gh-pages --save-dev
+ ```
+- 2.package.json 添加     
+  ```
+    "homepage":"https://xuwenliu.github.io/dva-todolist",
+  ```
+- 3.package.json script里面 添加     
+  ```
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist" //dist 为npm run build 打包后生成的文件夹名称
+  ```
+- 4.npm run build
+- 5.npm run deploy
 
 # 使用插件
 - [接口请求地址jsonplaceholder](https://jsonplaceholder.typicode.com/)
